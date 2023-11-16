@@ -8,8 +8,9 @@ export default {
 // More on writing stories with args: https://storybook.js.org/docs/react/writing-stories/args
 export const Primary = {
   args: {
-    primary: true,
-    text: 'Escriba aquí el texto',
+    showModal: true,
+    title: 'título',
+    text: 'Escriba aquí todo el parrafo',
   },
 };
 
